@@ -13,6 +13,13 @@
 		1F6ECCC71E7FB85600B3055E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCC01E7FB85500B3055E /* Main.storyboard */; };
 		1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ECCC31E7FB85500B3055E /* ViewController.swift */; };
 		1F6ECCCB1E7FB8C500B3055E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCCA1E7FB8C500B3055E /* Info.plist */; };
+		1F6ECCD21E7FBA6F00B3055E /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCD11E7FBA6F00B3055E /* Placeholder */; };
+		1F6ED0CD1E7FBCE300B3055E /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0BF1E7FBCE300B3055E /* File.strings */; };
+		1F6ED0D01E7FBCE300B3055E /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0C71E7FBCE300B3055E /* demo.js */; };
+		1F6ED0D11E7FBCE300B3055E /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0C81E7FBCE300B3055E /* ExampleApp.html */; };
+		1F6ED0D21E7FBCE300B3055E /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0C91E7FBCE300B3055E /* test.html */; };
+		1F6ED0D31E7FBCE300B3055E /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0CA1E7FBCE300B3055E /* test1.html */; };
+		1F6ED0D41E7FBCE300B3055E /* MobileProject_Local-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0CC1E7FBCE300B3055E /* MobileProject_Local-Info.plist */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +31,22 @@
 		1F6ECCC11E7FB85500B3055E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F6ECCC31E7FB85500B3055E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F6ECCCA1E7FB8C500B3055E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		1F6ECCD11E7FBA6F00B3055E /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F6ECCD71E7FBB0A00B3055E /* MobileProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F6ECF001E7FBCD000B3055E /* MBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBConstants.h; sourceTree = "<group>"; };
+		1F6ECF011E7FBCD000B3055E /* MBTargetConfigContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTargetConfigContants.h; sourceTree = "<group>"; };
+		1F6ECF021E7FBCD000B3055E /* MPEnumerateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEnumerateHeader.h; sourceTree = "<group>"; };
+		1F6ECF031E7FBCD000B3055E /* NotificationContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationContants.h; sourceTree = "<group>"; };
+		1F6ECF101E7FBCD000B3055E /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		1F6ECF111E7FBCD000B3055E /* MPTargetConfigMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTargetConfigMacros.h; sourceTree = "<group>"; };
+		1F6ECF121E7FBCD000B3055E /* ThirdMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		1F6ED0C01E7FBCE300B3055E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		1F6ED0C21E7FBCE300B3055E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
+		1F6ED0C71E7FBCE300B3055E /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		1F6ED0C81E7FBCE300B3055E /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		1F6ED0C91E7FBCE300B3055E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		1F6ED0CA1E7FBCE300B3055E /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
+		1F6ED0CC1E7FBCE300B3055E /* MobileProject_Local-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileProject_Local-Info.plist"; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +104,7 @@
 				1F6ECCC01E7FB85500B3055E /* Main.storyboard */,
 				1F6ECCC31E7FB85500B3055E /* ViewController.swift */,
 				1F6ECCCA1E7FB8C500B3055E /* Info.plist */,
+				1F6ECCD71E7FBB0A00B3055E /* MobileProject-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -88,6 +112,12 @@
 		1F6ECCCC1E7FB94800B3055E /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ECCDF1E7FBCD000B3055E /* Category */,
+				1F6ECEFF1E7FBCD000B3055E /* Const */,
+				1F6ECF041E7FBCD000B3055E /* Controls */,
+				1F6ECF0F1E7FBCD000B3055E /* Macros */,
+				1F6ECF131E7FBCD000B3055E /* Network */,
+				1F6ECF2B1E7FBCD000B3055E /* Tool */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -95,6 +125,13 @@
 		1F6ECCCD1E7FB94800B3055E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ECCD81E7FBC8100B3055E /* Base */,
+				1F6ECCD91E7FBC8100B3055E /* Home */,
+				1F6ECCDA1E7FBC8100B3055E /* Logger */,
+				1F6ECCDB1E7FBC8100B3055E /* LogIn */,
+				1F6ECCDC1E7FBC8100B3055E /* Preview */,
+				1F6ECCDD1E7FBC8100B3055E /* Public */,
+				1F6ECCDE1E7FBC8100B3055E /* Theory */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -102,6 +139,9 @@
 		1F6ECCCE1E7FB94800B3055E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ED0BE1E7FBCE300B3055E /* Global */,
+				1F6ED0C61E7FBCE300B3055E /* JsHtmlCss */,
+				1F6ED0CB1E7FBCE300B3055E /* Plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -109,6 +149,7 @@
 		1F6ECCCF1E7FB94800B3055E /* SDKFile */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ECCD11E7FBA6F00B3055E /* Placeholder */,
 			);
 			path = SDKFile;
 			sourceTree = "<group>";
@@ -118,6 +159,131 @@
 			children = (
 			);
 			path = Vender;
+			sourceTree = "<group>";
+		};
+		1F6ECCD81E7FBC8100B3055E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1F6ECCD91E7FBC8100B3055E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F6ECCDA1E7FBC8100B3055E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		1F6ECCDB1E7FBC8100B3055E /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		1F6ECCDC1E7FBC8100B3055E /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		1F6ECCDD1E7FBC8100B3055E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1F6ECCDE1E7FBC8100B3055E /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theory;
+			sourceTree = "<group>";
+		};
+		1F6ECCDF1E7FBCD000B3055E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1F6ECEFF1E7FBCD000B3055E /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ECF001E7FBCD000B3055E /* MBConstants.h */,
+				1F6ECF011E7FBCD000B3055E /* MBTargetConfigContants.h */,
+				1F6ECF021E7FBCD000B3055E /* MPEnumerateHeader.h */,
+				1F6ECF031E7FBCD000B3055E /* NotificationContants.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		1F6ECF041E7FBCD000B3055E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		1F6ECF0F1E7FBCD000B3055E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ECF101E7FBCD000B3055E /* Macros.h */,
+				1F6ECF111E7FBCD000B3055E /* MPTargetConfigMacros.h */,
+				1F6ECF121E7FBCD000B3055E /* ThirdMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1F6ECF131E7FBCD000B3055E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1F6ECF2B1E7FBCD000B3055E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1F6ED0BE1E7FBCE300B3055E /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0BF1E7FBCE300B3055E /* File.strings */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		1F6ED0C61E7FBCE300B3055E /* JsHtmlCss */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0C71E7FBCE300B3055E /* demo.js */,
+				1F6ED0C81E7FBCE300B3055E /* ExampleApp.html */,
+				1F6ED0C91E7FBCE300B3055E /* test.html */,
+				1F6ED0CA1E7FBCE300B3055E /* test1.html */,
+			);
+			path = JsHtmlCss;
+			sourceTree = "<group>";
+		};
+		1F6ED0CB1E7FBCE300B3055E /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0CC1E7FBCE300B3055E /* MobileProject_Local-Info.plist */,
+			);
+			path = Plist;
 			sourceTree = "<group>";
 		};
 		6920AAC7A6A9CCB1B419240E /* Pods */ = {
@@ -172,6 +338,7 @@
 				TargetAttributes = {
 					1F6ECCA31E7F6F7000B3055E = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -183,6 +350,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1F6ECC9B1E7F6F6F00B3055E;
 			productRefGroup = 1F6ECCA51E7F6F7400B3055E /* Products */;
@@ -199,10 +367,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6ED0D31E7FBCE300B3055E /* test1.html in Resources */,
 				1F6ECCCB1E7FB8C500B3055E /* Info.plist in Resources */,
 				1F6ECCC71E7FB85600B3055E /* Main.storyboard in Resources */,
 				1F6ECCC51E7FB85600B3055E /* Assets.xcassets in Resources */,
+				1F6ED0D01E7FBCE300B3055E /* demo.js in Resources */,
+				1F6ED0D21E7FBCE300B3055E /* test.html in Resources */,
+				1F6ED0D11E7FBCE300B3055E /* ExampleApp.html in Resources */,
+				1F6ED0D41E7FBCE300B3055E /* MobileProject_Local-Info.plist in Resources */,
+				1F6ED0CD1E7FBCE300B3055E /* File.strings in Resources */,
 				1F6ECCC61E7FB85600B3055E /* LaunchScreen.storyboard in Resources */,
+				1F6ECCD21E7FBA6F00B3055E /* Placeholder in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +458,15 @@
 				1F6ECCC11E7FB85500B3055E /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6ED0BF1E7FBCE300B3055E /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6ED0C01E7FBCE300B3055E /* en */,
+				1F6ED0C21E7FBCE300B3055E /* zh-Hans */,
+			);
+			name = File.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,10 +570,13 @@
 			baseConfigurationReference = AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -399,10 +586,12 @@
 			baseConfigurationReference = 39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
