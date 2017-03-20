@@ -85,10 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				1F6ECCBB1E7FB85500B3055E /* Supporting Files */,
-				1F6ECCCD1E7FB94800B3055E /* Main */,
-				1F6ECCCC1E7FB94800B3055E /* Expand */,
-				1F6ECCCE1E7FB94800B3055E /* Resource */,
-				1F6ECCCF1E7FB94800B3055E /* SDKFile */,
+				1F6ECCCD1E7FB94800B3055E /* Main(主要) */,
+				1F6ECCCC1E7FB94800B3055E /* Expand(扩展) */,
+				1F6ECCCE1E7FB94800B3055E /* Resource(资源) */,
+				1F6ECCCF1E7FB94800B3055E /* SDKFile(集成) */,
 				1F6ECCD01E7FB94800B3055E /* Vender */,
 			);
 			path = MobileProject;
@@ -108,7 +108,7 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F6ECCCC1E7FB94800B3055E /* Expand */ = {
+		1F6ECCCC1E7FB94800B3055E /* Expand(扩展) */ = {
 			isa = PBXGroup;
 			children = (
 				1F6ECCDF1E7FBCD000B3055E /* Category */,
@@ -118,10 +118,11 @@
 				1F6ECF131E7FBCD000B3055E /* Network */,
 				1F6ECF2B1E7FBCD000B3055E /* Tool */,
 			);
+			name = "Expand(扩展)";
 			path = Expand;
 			sourceTree = "<group>";
 		};
-		1F6ECCCD1E7FB94800B3055E /* Main */ = {
+		1F6ECCCD1E7FB94800B3055E /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
 				1F6ECCD81E7FBC8100B3055E /* Base */,
@@ -135,24 +136,27 @@
 				1F6ED0E81E7FC81400B3055E /* Model */,
 				1F6ED0E91E7FC83D00B3055E /* ViewModel */,
 			);
+			name = "Main(主要)";
 			path = Main;
 			sourceTree = "<group>";
 		};
-		1F6ECCCE1E7FB94800B3055E /* Resource */ = {
+		1F6ECCCE1E7FB94800B3055E /* Resource(资源) */ = {
 			isa = PBXGroup;
 			children = (
 				1F6ED0E01E7FC15200B3055E /* Global */,
 				1F6ED0C61E7FBCE300B3055E /* JsHtmlCss */,
 				1F6ED0CB1E7FBCE300B3055E /* Plist */,
 			);
+			name = "Resource(资源)";
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		1F6ECCCF1E7FB94800B3055E /* SDKFile */ = {
+		1F6ECCCF1E7FB94800B3055E /* SDKFile(集成) */ = {
 			isa = PBXGroup;
 			children = (
 				1F6ECCD11E7FBA6F00B3055E /* Placeholder */,
 			);
+			name = "SDKFile(集成)";
 			path = SDKFile;
 			sourceTree = "<group>";
 		};

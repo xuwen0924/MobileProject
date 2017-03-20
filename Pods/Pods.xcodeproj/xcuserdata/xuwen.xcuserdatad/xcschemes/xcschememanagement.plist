@@ -9,7 +9,37 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DynamicColor.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MobileProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Spring.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftDate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>19864AB8F7B8E9064740E008772C4404</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38A910FE34F89F4C4E75E1024496739E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68989011581BD281C4414F9A76882756</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77453B99281E961B209ECFCA7EA332EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>881FC4799FC375DA7C33369846530F9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E46A325D26AB4BCFDAB9A5E2411C72CF</key>
+		<key>D2E634CF1CA93BDE39DB8542A6EF1E0A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

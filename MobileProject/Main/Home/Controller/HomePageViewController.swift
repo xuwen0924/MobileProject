@@ -14,6 +14,9 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("qwertyuiopasdfghjklzxcvbnm")
+        print(view.frame.size.height)
+        print(view)
         view.backgroundColor = UIColor.white
     }
 

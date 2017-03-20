@@ -1,12 +1,40 @@
 PODS:
   - Alamofire (4.4.0)
+  - DynamicColor (3.2.1)
+  - NVActivityIndicatorView (3.5.1)
+  - ReachabilitySwift (3)
+  - Spring (1.0.3)
+  - SwiftDate (4.0.13)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire
+  - DynamicColor (~> 3.2.1)
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftDate (~> 4.0)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DynamicColor: 4786d650c69da6c3f2cbfe068348288ec4e5521f
+  NVActivityIndicatorView: 075563b3547445ebcff840e3297ce9dd4a23731f
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftDate: 8ec416bb1b5129d1f35e8efaed720421f41d42df
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 2fe212a7c26ac7d1c5cfed2bb514bc0aa9de9959
+PODFILE CHECKSUM: 7eb1a03885d701991e69fefac0d6eaf9750b5f91
 
 COCOAPODS: 1.2.0
