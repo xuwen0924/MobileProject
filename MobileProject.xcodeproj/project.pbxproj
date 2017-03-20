@@ -16,6 +16,13 @@
 		1F6ECCD21E7FBA6F00B3055E /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCD11E7FBA6F00B3055E /* Placeholder */; };
 		1F6ED0E51E7FC15200B3055E /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0E11E7FC15200B3055E /* File.strings */; };
 		1F6ED0E71E7FC38000B3055E /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0E61E7FC38000B3055E /* Placeholder */; };
+		1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0EA1E7FC8D900B3055E /* BasicViewModel.swift */; };
+		1F6ED0ED1E7FC90500B3055E /* BasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */; };
+		1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0F01E7FCCE200B3055E /* BaseTabBarViewController.swift */; };
+		1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1001E7FCE8200B3055E /* HomePageViewController.swift */; };
+		1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1021E7FCE9500B3055E /* DiscoveryViewController.swift */; };
+		1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1041E7FCEA500B3055E /* MessageViewController.swift */; };
+		1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1061E7FCEB300B3055E /* PersonalViewController.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +39,13 @@
 		1F6ED0E21E7FC15200B3055E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
 		1F6ED0E41E7FC15200B3055E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
 		1F6ED0E61E7FC38000B3055E /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F6ED0EA1E7FC8D900B3055E /* BasicViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewModel.swift; sourceTree = "<group>"; };
+		1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicModel.swift; sourceTree = "<group>"; };
+		1F6ED0F01E7FCCE200B3055E /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		1F6ED1001E7FCE8200B3055E /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		1F6ED1021E7FCE9500B3055E /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		1F6ED1041E7FCEA500B3055E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1F6ED1061E7FCEB300B3055E /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,12 +125,15 @@
 			isa = PBXGroup;
 			children = (
 				1F6ECCD81E7FBC8100B3055E /* Base */,
-				1F6ECCD91E7FBC8100B3055E /* Home */,
-				1F6ECCDA1E7FBC8100B3055E /* Logger */,
-				1F6ECCDB1E7FBC8100B3055E /* LogIn */,
-				1F6ECCDC1E7FBC8100B3055E /* Preview */,
 				1F6ECCDD1E7FBC8100B3055E /* Public */,
-				1F6ECCDE1E7FBC8100B3055E /* Theory */,
+				1F6ECCD91E7FBC8100B3055E /* Home */,
+				1F6ED0F51E7FCDC000B3055E /* Discovery */,
+				1F6ED0F61E7FCDC000B3055E /* Message */,
+				1F6ED0F71E7FCDC000B3055E /* Personal */,
+				1F6ECCDB1E7FBC8100B3055E /* LogIn */,
+				1F6ECCDA1E7FBC8100B3055E /* Logger */,
+				1F6ED0E81E7FC81400B3055E /* Model */,
+				1F6ED0E91E7FC83D00B3055E /* ViewModel */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -150,6 +167,8 @@
 		1F6ECCD81E7FBC8100B3055E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ED0EE1E7FCCA800B3055E /* BaseController */,
+				1F6ED0EF1E7FCCA800B3055E /* BaseView */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -157,6 +176,8 @@
 		1F6ECCD91E7FBC8100B3055E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1F6ED0F81E7FCE4600B3055E /* Controller */,
+				1F6ED0F91E7FCE4600B3055E /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -175,25 +196,11 @@
 			path = LogIn;
 			sourceTree = "<group>";
 		};
-		1F6ECCDC1E7FBC8100B3055E /* Preview */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Preview;
-			sourceTree = "<group>";
-		};
 		1F6ECCDD1E7FBC8100B3055E /* Public */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Public;
-			sourceTree = "<group>";
-		};
-		1F6ECCDE1E7FBC8100B3055E /* Theory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Theory;
 			sourceTree = "<group>";
 		};
 		1F6ECCDF1E7FBCD000B3055E /* Category */ = {
@@ -258,6 +265,124 @@
 				1F6ED0E11E7FC15200B3055E /* File.strings */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		1F6ED0E81E7FC81400B3055E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F6ED0E91E7FC83D00B3055E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0EA1E7FC8D900B3055E /* BasicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F6ED0EE1E7FCCA800B3055E /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0F01E7FCCE200B3055E /* BaseTabBarViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		1F6ED0EF1E7FCCA800B3055E /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		1F6ED0F51E7FCDC000B3055E /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0FA1E7FCE5300B3055E /* Controller */,
+				1F6ED0FB1E7FCE5300B3055E /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		1F6ED0F61E7FCDC000B3055E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0FC1E7FCE5D00B3055E /* Controller */,
+				1F6ED0FD1E7FCE5D00B3055E /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1F6ED0F71E7FCDC000B3055E /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED0FE1E7FCE6600B3055E /* Controller */,
+				1F6ED0FF1E7FCE6600B3055E /* View */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		1F6ED0F81E7FCE4600B3055E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED1001E7FCE8200B3055E /* HomePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F6ED0F91E7FCE4600B3055E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F6ED0FA1E7FCE5300B3055E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED1021E7FCE9500B3055E /* DiscoveryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F6ED0FB1E7FCE5300B3055E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F6ED0FC1E7FCE5D00B3055E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED1041E7FCEA500B3055E /* MessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F6ED0FD1E7FCE5D00B3055E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F6ED0FE1E7FCE6600B3055E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F6ED1061E7FCEB300B3055E /* PersonalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F6ED0FF1E7FCE6600B3055E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6920AAC7A6A9CCB1B419240E /* Pods */ = {
@@ -406,7 +531,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
+				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
+				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
+				1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */,
+				1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */,
+				1F6ED0ED1E7FC90500B3055E /* BasicModel.swift in Sources */,
+				1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */,
 				1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
