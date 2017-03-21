@@ -17,12 +17,18 @@
 		1F6ED0E51E7FC15200B3055E /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0E11E7FC15200B3055E /* File.strings */; };
 		1F6ED0E71E7FC38000B3055E /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ED0E61E7FC38000B3055E /* Placeholder */; };
 		1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0EA1E7FC8D900B3055E /* BasicViewModel.swift */; };
-		1F6ED0ED1E7FC90500B3055E /* BasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */; };
 		1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED0F01E7FCCE200B3055E /* BaseTabBarViewController.swift */; };
 		1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1001E7FCE8200B3055E /* HomePageViewController.swift */; };
 		1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1021E7FCE9500B3055E /* DiscoveryViewController.swift */; };
 		1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1041E7FCEA500B3055E /* MessageViewController.swift */; };
 		1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ED1061E7FCEB300B3055E /* PersonalViewController.swift */; };
+		1F7C0E481E80D42600D355B2 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E471E80D42600D355B2 /* HttpClient.swift */; };
+		1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E491E80F95100D355B2 /* APIUrl.swift */; };
+		1F7C0E4C1E80F99A00D355B2 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E4B1E80F99A00D355B2 /* Macros.swift */; };
+		1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E4D1E80F9A900D355B2 /* ThirdMacros.swift */; };
+		1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */; };
+		1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */; };
+		1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E531E81188D00D355B2 /* HttpResponse.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,12 +46,18 @@
 		1F6ED0E41E7FC15200B3055E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
 		1F6ED0E61E7FC38000B3055E /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		1F6ED0EA1E7FC8D900B3055E /* BasicViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewModel.swift; sourceTree = "<group>"; };
-		1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicModel.swift; sourceTree = "<group>"; };
 		1F6ED0F01E7FCCE200B3055E /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		1F6ED1001E7FCE8200B3055E /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		1F6ED1021E7FCE9500B3055E /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		1F6ED1041E7FCEA500B3055E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		1F6ED1061E7FCEB300B3055E /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		1F7C0E471E80D42600D355B2 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		1F7C0E491E80F95100D355B2 /* APIUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUrl.swift; sourceTree = "<group>"; };
+		1F7C0E4B1E80F99A00D355B2 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		1F7C0E4D1E80F9A900D355B2 /* ThirdMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdMacros.swift; sourceTree = "<group>"; };
+		1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboListModel.swift; sourceTree = "<group>"; };
+		1F7C0E531E81188D00D355B2 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +235,9 @@
 		1F6ECF0F1E7FBCD000B3055E /* Macros(宏) */ = {
 			isa = PBXGroup;
 			children = (
+				1F7C0E491E80F95100D355B2 /* APIUrl.swift */,
+				1F7C0E4B1E80F99A00D355B2 /* Macros.swift */,
+				1F7C0E4D1E80F9A900D355B2 /* ThirdMacros.swift */,
 			);
 			name = "Macros(宏)";
 			path = Macros;
@@ -231,6 +246,8 @@
 		1F6ECF131E7FBCD000B3055E /* Network(网络) */ = {
 			isa = PBXGroup;
 			children = (
+				1F7C0E471E80D42600D355B2 /* HttpClient.swift */,
+				1F7C0E531E81188D00D355B2 /* HttpResponse.swift */,
 			);
 			name = "Network(网络)";
 			path = Network;
@@ -269,7 +286,8 @@
 		1F6ED0E81E7FC81400B3055E /* Model(数据模型) */ = {
 			isa = PBXGroup;
 			children = (
-				1F6ED0EC1E7FC90500B3055E /* BasicModel.swift */,
+				1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */,
+				1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */,
 			);
 			name = "Model(数据模型)";
 			path = Model;
@@ -542,13 +560,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */,
+				1F7C0E4C1E80F99A00D355B2 /* Macros.swift in Sources */,
+				1F7C0E481E80D42600D355B2 /* HttpClient.swift in Sources */,
+				1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */,
+				1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */,
+				1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */,
 				1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */,
+				1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
 				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
 				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
 				1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */,
 				1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */,
-				1F6ED0ED1E7FC90500B3055E /* BasicModel.swift in Sources */,
 				1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */,
 				1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */,
 			);

@@ -8,16 +8,58 @@
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class HomePageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    var tableView: UITableView!
+    var dataArray: [WeiboListModel] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        print("qwertyuiopasdfghjklzxcvbnm")
-        print(view.frame.size.height)
-        print(view)
+        
+        //初始化视图
+        initView();
+        
+        //请求数据
+        requestData();
+    }
+    
+    func initView() -> Void {
         view.backgroundColor = UIColor.white
+        tableView = UITableView(frame: CGRect(x: 0,y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT), style: UITableViewStyle.grouped)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+        view.addSubview(tableView)
+    }
+    
+    func requestData() -> Void {
+        WeiboListModel.fetchPublicWeiBo { (dataArray) in
+            print(dataArray)
+            print("success")
+            self.dataArray = dataArray
+            self.tableView.reloadData()
+        }
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell")!
+        if indexPath.row < dataArray.count {
+            let model: WeiboListModel = dataArray[indexPath.row]
+            cell.textLabel?.text = model.text
+        }
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
