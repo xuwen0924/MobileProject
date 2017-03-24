@@ -1,20 +1,66 @@
 PODS:
   - Alamofire (4.4.0)
+  - AMap2DMap (4.6.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.3.4)
+  - AMapSearch (4.5.0):
+    - AMapFoundation (~> 1.2)
   - DynamicColor (3.2.1)
+  - FoldingCell (2.0.3)
   - NVActivityIndicatorView (3.5.1)
   - ReachabilitySwift (3)
+  - RongCloudIM/IMKit (2.8.7):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.7)
   - Spring (1.0.3)
   - SwiftDate (4.0.13)
   - SwiftyJSON (3.1.4)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengUShare/Core (6.4.0):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.0)
+  - UMengUShare/Social/Email (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/SMS (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.0):
+    - UMengUShare/Core
 
 DEPENDENCIES:
   - Alamofire
+  - AMap2DMap
+  - AMapSearch
   - DynamicColor (~> 3.2.1)
+  - FoldingCell (~> 2.0.3)
   - NVActivityIndicatorView
   - ReachabilitySwift
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
   - SwiftDate (~> 4.0)
   - SwiftyJSON
+  - UMengAnalytics-NO-IDFA
+  - UMengUShare/Social/Email
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/SMS
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
 
 EXTERNAL SOURCES:
   Spring:
@@ -28,13 +74,20 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AMap2DMap: 003fa70526983a1469ae6fc3323a6ee8b5ccf53c
+  AMapFoundation: 486493b8e9ae4a1cb7ce2d8d8978ee1aabf9bb34
+  AMapSearch: 7a6ebc20a42e34a021b042b047f198082fc2fc30
   DynamicColor: 4786d650c69da6c3f2cbfe068348288ec4e5521f
+  FoldingCell: 2f3113051609167776743415fc00ed877ac6d62c
   NVActivityIndicatorView: 075563b3547445ebcff840e3297ce9dd4a23731f
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RongCloudIM: 7bbe81602eac7224de201f0e56621f88c39d0174
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftDate: 8ec416bb1b5129d1f35e8efaed720421f41d42df
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengUShare: 83f849f356db0db9f18488cfbc2055a20b150481
 
-PODFILE CHECKSUM: 7eb1a03885d701991e69fefac0d6eaf9750b5f91
+PODFILE CHECKSUM: fa5f7774b9942deec42df3826ca9bf53776a78c4
 
 COCOAPODS: 1.2.0

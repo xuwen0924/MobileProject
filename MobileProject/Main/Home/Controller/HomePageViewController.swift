@@ -10,8 +10,13 @@ import UIKit
 
 class HomePageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    let kCloseCellHeight: CGFloat = 179
+    let kOpenCellHeight: CGFloat = 488
+    
     var tableView: UITableView!
     var dataArray: [WeiboListModel] = []
+    
+    var cellHeights = [CGFloat]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +42,7 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             print(dataArray)
             print("success")
             self.dataArray = dataArray
+            self.cellHeights.append(self.kCloseCellHeight)
             self.tableView.reloadData()
         }
     }
@@ -56,6 +62,10 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             cell.textLabel?.text = model.text
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FoldingCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NVActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,27 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38A910FE34F89F4C4E75E1024496739E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68989011581BD281C4414F9A76882756</key>
+		<key>3FEDBF7136829F31B0A6FD1FD36C5765</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>77453B99281E961B209ECFCA7EA332EF</key>
+		<key>43F173AA76D6DF0817CF5A2198D168C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>881FC4799FC375DA7C33369846530F9B</key>
+		<key>7AA0E0539A0FE83971B6E254BA408BBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D2E634CF1CA93BDE39DB8542A6EF1E0A</key>
+		<key>92FF822A53A1CB176D13AFFD21EA01B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B626E472969D6F87698AF0041EAAFC38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE59C2C1A32FF4CE021322D5A4BBF079</key>
 		<dict>
 			<key>primary</key>
 			<true/>

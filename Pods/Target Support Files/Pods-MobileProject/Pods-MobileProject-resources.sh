@@ -76,6 +76,30 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "AMap2DMap/MAMapKit.framework/AMap.bundle"
+  install_resource "RongCloudIM/RongCloudIM/RongCloud.bundle"
+  install_resource "RongCloudIM/RongCloudIM/en.lproj"
+  install_resource "RongCloudIM/RongCloudIM/zh-Hans.lproj"
+  install_resource "RongCloudIM/RongCloudIM/Emoji.plist"
+  install_resource "RongCloudIM/RongCloudIM/RCConfig.plist"
+  install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "AMap2DMap/MAMapKit.framework/AMap.bundle"
+  install_resource "RongCloudIM/RongCloudIM/RongCloud.bundle"
+  install_resource "RongCloudIM/RongCloudIM/en.lproj"
+  install_resource "RongCloudIM/RongCloudIM/zh-Hans.lproj"
+  install_resource "RongCloudIM/RongCloudIM/Emoji.plist"
+  install_resource "RongCloudIM/RongCloudIM/RCConfig.plist"
+  install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
