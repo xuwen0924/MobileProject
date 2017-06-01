@@ -64,7 +64,30 @@
 		1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */; };
 		1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		1FA4E5451EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5441EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift */; };
+		1FA4E54E1EDFF37000E27BB0 /* FMDBShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5471EDFF37000E27BB0 /* FMDBShareApi.swift */; };
+		1FA4E54F1EDFF37000E27BB0 /* FormDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5481EDFF37000E27BB0 /* FormDatabase.swift */; };
+		1FA4E5501EDFF37000E27BB0 /* NSObject+FMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5491EDFF37000E27BB0 /* NSObject+FMDB.swift */; };
+		1FA4E5511EDFF37000E27BB0 /* PrimaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E54A1EDFF37000E27BB0 /* PrimaryKey.swift */; };
+		1FA4E5521EDFF37000E27BB0 /* SqlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E54B1EDFF37000E27BB0 /* SqlBuilder.swift */; };
+		1FA4E5531EDFF37000E27BB0 /* SqlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E54C1EDFF37000E27BB0 /* SqlInfo.swift */; };
+		1FA4E5541EDFF37000E27BB0 /* TableInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E54D1EDFF37000E27BB0 /* TableInfo.swift */; };
+		1FA4E5641EDFF3E800E27BB0 /* BaseViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5551EDFF3E800E27BB0 /* BaseViewController+Extension.swift */; };
+		1FA4E5651EDFF3E800E27BB0 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5561EDFF3E800E27BB0 /* NSObject+Extension.swift */; };
+		1FA4E5661EDFF3E800E27BB0 /* NSUserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5571EDFF3E800E27BB0 /* NSUserDefaults+Extension.swift */; };
+		1FA4E5671EDFF3E800E27BB0 /* Range+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5581EDFF3E800E27BB0 /* Range+Category.swift */; };
+		1FA4E5681EDFF3E800E27BB0 /* String+CheckValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55A1EDFF3E800E27BB0 /* String+CheckValue.m */; };
+		1FA4E5691EDFF3E800E27BB0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55B1EDFF3E800E27BB0 /* String+Extension.swift */; };
+		1FA4E56A1EDFF3E800E27BB0 /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55C1EDFF3E800E27BB0 /* UIColor+Category.swift */; };
+		1FA4E56B1EDFF3E800E27BB0 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55D1EDFF3E800E27BB0 /* UIFont+Extension.swift */; };
+		1FA4E56C1EDFF3E800E27BB0 /* UIImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55E1EDFF3E800E27BB0 /* UIImage+Category.swift */; };
+		1FA4E56D1EDFF3E800E27BB0 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E55F1EDFF3E800E27BB0 /* UILabel+Extension.swift */; };
+		1FA4E56E1EDFF3E800E27BB0 /* UITextField+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5601EDFF3E800E27BB0 /* UITextField+Category.swift */; };
+		1FA4E56F1EDFF3E800E27BB0 /* UITextView+Catetory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5611EDFF3E800E27BB0 /* UITextView+Catetory.swift */; };
+		1FA4E5701EDFF3E800E27BB0 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5621EDFF3E800E27BB0 /* UIView+Category.swift */; };
+		1FA4E5711EDFF3E800E27BB0 /* UIViewController+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5631EDFF3E800E27BB0 /* UIViewController+Category.swift */; };
 		1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */; };
+		1FDAC6371EE001D10030BE94 /* FavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDAC6361EE001D10030BE94 /* FavorViewController.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -144,7 +167,31 @@
 		1FA4E53F1EDFE78000E27BB0 /* MobileProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FA4E5411EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		1FA4E5441EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableDictionary+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E5471EDFF37000E27BB0 /* FMDBShareApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBShareApi.swift; sourceTree = "<group>"; };
+		1FA4E5481EDFF37000E27BB0 /* FormDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDatabase.swift; sourceTree = "<group>"; };
+		1FA4E5491EDFF37000E27BB0 /* NSObject+FMDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+FMDB.swift"; sourceTree = "<group>"; };
+		1FA4E54A1EDFF37000E27BB0 /* PrimaryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryKey.swift; sourceTree = "<group>"; };
+		1FA4E54B1EDFF37000E27BB0 /* SqlBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlBuilder.swift; sourceTree = "<group>"; };
+		1FA4E54C1EDFF37000E27BB0 /* SqlInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlInfo.swift; sourceTree = "<group>"; };
+		1FA4E54D1EDFF37000E27BB0 /* TableInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableInfo.swift; sourceTree = "<group>"; };
+		1FA4E5551EDFF3E800E27BB0 /* BaseViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseViewController+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E5561EDFF3E800E27BB0 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E5571EDFF3E800E27BB0 /* NSUserDefaults+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E5581EDFF3E800E27BB0 /* Range+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Category.swift"; sourceTree = "<group>"; };
+		1FA4E5591EDFF3E800E27BB0 /* String+CheckValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "String+CheckValue.h"; sourceTree = "<group>"; };
+		1FA4E55A1EDFF3E800E27BB0 /* String+CheckValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "String+CheckValue.m"; sourceTree = "<group>"; };
+		1FA4E55B1EDFF3E800E27BB0 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E55C1EDFF3E800E27BB0 /* UIColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
+		1FA4E55D1EDFF3E800E27BB0 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E55E1EDFF3E800E27BB0 /* UIImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Category.swift"; sourceTree = "<group>"; };
+		1FA4E55F1EDFF3E800E27BB0 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1FA4E5601EDFF3E800E27BB0 /* UITextField+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Category.swift"; sourceTree = "<group>"; };
+		1FA4E5611EDFF3E800E27BB0 /* UITextView+Catetory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Catetory.swift"; sourceTree = "<group>"; };
+		1FA4E5621EDFF3E800E27BB0 /* UIView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
+		1FA4E5631EDFF3E800E27BB0 /* UIViewController+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Category.swift"; sourceTree = "<group>"; };
 		1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmengHelper.swift; sourceTree = "<group>"; };
+		1FDAC6361EE001D10030BE94 /* FavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorViewController.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,7 +273,8 @@
 				1F6ECCD81E7FBC8100B3055E /* Base(基础类) */,
 				1F6ECCDD1E7FBC8100B3055E /* Public(公共类) */,
 				1F6ECCD91E7FBC8100B3055E /* Home(首页) */,
-				1F6ED0F51E7FCDC000B3055E /* Discovery(首页) */,
+				1F6ED0F51E7FCDC000B3055E /* Discovery(发现) */,
+				1FDAC6311EE0017E0030BE94 /* Favor(喜欢) */,
 				1F6ED0F61E7FCDC000B3055E /* Message(消息) */,
 				1F6ED0F71E7FCDC000B3055E /* Personal(个人中心) */,
 				1F6ECCDB1E7FBC8100B3055E /* LogIn(登录) */,
@@ -320,6 +368,22 @@
 		1F6ECCDF1E7FBCD000B3055E /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4E5441EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift */,
+				1FA4E5551EDFF3E800E27BB0 /* BaseViewController+Extension.swift */,
+				1FA4E5561EDFF3E800E27BB0 /* NSObject+Extension.swift */,
+				1FA4E5571EDFF3E800E27BB0 /* NSUserDefaults+Extension.swift */,
+				1FA4E5581EDFF3E800E27BB0 /* Range+Category.swift */,
+				1FA4E5591EDFF3E800E27BB0 /* String+CheckValue.h */,
+				1FA4E55A1EDFF3E800E27BB0 /* String+CheckValue.m */,
+				1FA4E55B1EDFF3E800E27BB0 /* String+Extension.swift */,
+				1FA4E55C1EDFF3E800E27BB0 /* UIColor+Category.swift */,
+				1FA4E55D1EDFF3E800E27BB0 /* UIFont+Extension.swift */,
+				1FA4E55E1EDFF3E800E27BB0 /* UIImage+Category.swift */,
+				1FA4E55F1EDFF3E800E27BB0 /* UILabel+Extension.swift */,
+				1FA4E5601EDFF3E800E27BB0 /* UITextField+Category.swift */,
+				1FA4E5611EDFF3E800E27BB0 /* UITextView+Catetory.swift */,
+				1FA4E5621EDFF3E800E27BB0 /* UIView+Category.swift */,
+				1FA4E5631EDFF3E800E27BB0 /* UIViewController+Category.swift */,
 			);
 			name = "Category(分类)";
 			path = Category;
@@ -410,13 +474,13 @@
 			path = BaseView;
 			sourceTree = "<group>";
 		};
-		1F6ED0F51E7FCDC000B3055E /* Discovery(首页) */ = {
+		1F6ED0F51E7FCDC000B3055E /* Discovery(发现) */ = {
 			isa = PBXGroup;
 			children = (
 				1F6ED0FA1E7FCE5300B3055E /* Controller */,
 				1F6ED0FB1E7FCE5300B3055E /* View */,
 			);
-			name = "Discovery(首页)";
+			name = "Discovery(发现)";
 			path = Discovery;
 			sourceTree = "<group>";
 		};
@@ -503,6 +567,7 @@
 		1F7C0E451E80BEEB00D355B2 /* DataBase(数据库) */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4E5461EDFF37000E27BB0 /* Fmdb */,
 				1FA4E4E51EDFAA7900E27BB0 /* sql */,
 				1FA4E4E31EDFAA6100E27BB0 /* FMDBAdapterHelper.swift */,
 				1FA4E5041EDFAA8300E27BB0 /* Migration.h */,
@@ -634,6 +699,20 @@
 			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
+		1FA4E5461EDFF37000E27BB0 /* Fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5471EDFF37000E27BB0 /* FMDBShareApi.swift */,
+				1FA4E5481EDFF37000E27BB0 /* FormDatabase.swift */,
+				1FA4E5491EDFF37000E27BB0 /* NSObject+FMDB.swift */,
+				1FA4E54A1EDFF37000E27BB0 /* PrimaryKey.swift */,
+				1FA4E54B1EDFF37000E27BB0 /* SqlBuilder.swift */,
+				1FA4E54C1EDFF37000E27BB0 /* SqlInfo.swift */,
+				1FA4E54D1EDFF37000E27BB0 /* TableInfo.swift */,
+			);
+			path = Fmdb;
+			sourceTree = "<group>";
+		};
 		1FAB585C1E9B282E00D8A776 /* UmengHelper(友盟管理) */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,6 +720,31 @@
 			);
 			name = "UmengHelper(友盟管理)";
 			path = UmengHelper;
+			sourceTree = "<group>";
+		};
+		1FDAC6311EE0017E0030BE94 /* Favor(喜欢) */ = {
+			isa = PBXGroup;
+			children = (
+				1FDAC6321EE0018A0030BE94 /* Controller */,
+				1FDAC6341EE0018A0030BE94 /* View */,
+			);
+			name = "Favor(喜欢)";
+			path = Favor;
+			sourceTree = "<group>";
+		};
+		1FDAC6321EE0018A0030BE94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FDAC6361EE001D10030BE94 /* FavorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FDAC6341EE0018A0030BE94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6920AAC7A6A9CCB1B419240E /* Pods */ = {
@@ -807,32 +911,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA4E5681EDFF3E800E27BB0 /* String+CheckValue.m in Sources */,
+				1FA4E5701EDFF3E800E27BB0 /* UIView+Category.swift in Sources */,
 				1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				1FA4E5451EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift in Sources */,
+				1FA4E5521EDFF37000E27BB0 /* SqlBuilder.swift in Sources */,
 				1FA4E5061EDFAA8300E27BB0 /* Migration.m in Sources */,
+				1FA4E5531EDFF37000E27BB0 /* SqlInfo.swift in Sources */,
 				1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */,
 				1FA4E5301EDFAAD300E27BB0 /* FMResultSet.m in Sources */,
 				1F7C0E4C1E80F99A00D355B2 /* Macros.swift in Sources */,
 				1F7C0E481E80D42600D355B2 /* HttpClient.swift in Sources */,
+				1FA4E54E1EDFF37000E27BB0 /* FMDBShareApi.swift in Sources */,
 				1FA4E52D1EDFAAD300E27BB0 /* FMDatabaseAdditions.m in Sources */,
 				1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */,
 				1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */,
 				1FA4E5311EDFAAD300E27BB0 /* FMDBMigrationManager.m in Sources */,
 				1FA4E5121EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
+				1FA4E5691EDFF3E800E27BB0 /* String+Extension.swift in Sources */,
+				1FA4E5651EDFF3E800E27BB0 /* NSObject+Extension.swift in Sources */,
+				1FA4E56B1EDFF3E800E27BB0 /* UIFont+Extension.swift in Sources */,
 				1FA4E5101EDFAAC000E27BB0 /* KMSwizzle.m in Sources */,
 				1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */,
 				1FA4E5331EDFAAD300E27BB0 /* README.md in Sources */,
 				1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */,
 				1FA4E5131EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m in Sources */,
+				1FDAC6371EE001D10030BE94 /* FavorViewController.swift in Sources */,
+				1FA4E56D1EDFF3E800E27BB0 /* UILabel+Extension.swift in Sources */,
 				1FA4E4E41EDFAA6100E27BB0 /* FMDBAdapterHelper.swift in Sources */,
 				1FA4E52B1EDFAAD300E27BB0 /* README.markdown in Sources */,
+				1FA4E5671EDFF3E800E27BB0 /* Range+Category.swift in Sources */,
+				1FA4E5541EDFF37000E27BB0 /* TableInfo.swift in Sources */,
+				1FA4E5661EDFF3E800E27BB0 /* NSUserDefaults+Extension.swift in Sources */,
 				1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */,
+				1FA4E5711EDFF3E800E27BB0 /* UIViewController+Category.swift in Sources */,
 				1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */,
+				1FA4E56A1EDFF3E800E27BB0 /* UIColor+Category.swift in Sources */,
 				1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */,
 				1FA4E52E1EDFAAD300E27BB0 /* FMDatabasePool.m in Sources */,
 				1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */,
 				1FA4E52C1EDFAAD300E27BB0 /* FMDatabase.m in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
+				1FA4E56F1EDFF3E800E27BB0 /* UITextView+Catetory.swift in Sources */,
 				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
+				1FA4E5641EDFF3E800E27BB0 /* BaseViewController+Extension.swift in Sources */,
 				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
 				1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */,
 				1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
@@ -840,7 +962,12 @@
 				1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */,
 				1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */,
 				1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */,
+				1FA4E54F1EDFF37000E27BB0 /* FormDatabase.swift in Sources */,
+				1FA4E56E1EDFF3E800E27BB0 /* UITextField+Category.swift in Sources */,
+				1FA4E5501EDFF37000E27BB0 /* NSObject+FMDB.swift in Sources */,
+				1FA4E56C1EDFF3E800E27BB0 /* UIImage+Category.swift in Sources */,
 				1FA4E52F1EDFAAD300E27BB0 /* FMDatabaseQueue.m in Sources */,
+				1FA4E5511EDFF37000E27BB0 /* PrimaryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

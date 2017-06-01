@@ -2,7 +2,7 @@
   sql.strings
   YunZhangGui
 
-  Created by liujinliang on 2017/1/19.
+  Created by xuwen on 2017/1/19.
   Copyright © 2017年 worldunion.com.cn. All rights reserved.
 */
 //touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateSubscriptionObj.sql

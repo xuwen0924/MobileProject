@@ -20,6 +20,7 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "首页"
         
         //初始化视图
         initView();

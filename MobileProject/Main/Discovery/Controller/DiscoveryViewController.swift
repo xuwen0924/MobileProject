@@ -14,6 +14,7 @@ class DiscoveryViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.title = "发现"
         view.backgroundColor = UIColor.white
     }
 

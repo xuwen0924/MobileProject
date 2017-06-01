@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import ESTabBarController_swift
 
-class BaseTabBarViewController: UITabBarController, UITabBarControllerDelegate {
+class BaseTabBarViewController: ESTabBarController, UITabBarControllerDelegate {
     
     class var sharedInstance: BaseTabBarViewController{
         struct Instance{
@@ -30,27 +31,43 @@ class BaseTabBarViewController: UITabBarController, UITabBarControllerDelegate {
     
     func initTabBarControllers(){
         
-        let home : HomePageViewController! = HomePageViewController()
-        let homeNav : UINavigationController! = UINavigationController(rootViewController: home)
+        let v1 : HomePageViewController! = HomePageViewController()
+        let nav1 : UINavigationController! = UINavigationController(rootViewController: v1)
         
-        let product : DiscoveryViewController! = DiscoveryViewController()
-        let productNav : UINavigationController! = UINavigationController(rootViewController: product)
+        let v2 : DiscoveryViewController! = DiscoveryViewController()
+        let nav2 : UINavigationController! = UINavigationController(rootViewController: v2)
         
-        let message : MessageViewController! = MessageViewController()
-        let messageNav : UINavigationController! = UINavigationController(rootViewController: message)
+        let v3 : MessageViewController! = MessageViewController()
+        let nav3 : UINavigationController! = UINavigationController(rootViewController: v3)
         
-        let personal : PersonalViewController! = PersonalViewController()
-        let personalNav : UINavigationController! = UINavigationController(rootViewController: personal)
+        let v4 : FavorViewController! = FavorViewController()
+        let nav4 : UINavigationController! = UINavigationController(rootViewController: v4)
         
-        self.viewControllers = [homeNav, productNav, messageNav, personalNav]
+        let v5 : PersonalViewController! = PersonalViewController()
+        let nav5 : UINavigationController! = UINavigationController(rootViewController: v5)
         
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.gray, NSFontAttributeName: UIFont.systemFont(ofSize: 11)], for: UIControlState())
         
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.black, NSFontAttributeName: UIFont.systemFont(ofSize: 11)], for: UIControlState.selected)
         
-        for i: Int in 0..<(self.viewControllers?.count)! {
-            self.viewControllers![i].tabBarItem = UITabBarItem.init(tabBarSystemItem: UITabBarSystemItem.topRated, tag: i)
+        v1.tabBarItem = UITabBarItem.init(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = UITabBarItem.init(title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = UITabBarItem.init(title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
+        v4.tabBarItem = UITabBarItem.init(title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        v5.tabBarItem = UITabBarItem.init(title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        
+        v1.tabBarItem.badgeValue = "New"
+        v2.tabBarItem.badgeValue = "99+"
+        v3.tabBarItem.badgeValue = "1"
+        
+        if let tabBarItem = v3.tabBarItem as? ESTabBarItem {
+            tabBarItem.badgeColor = UIColor.blue
         }
+        
+        v4.tabBarItem.badgeValue = ""
+        v5.tabBarItem.badgeValue = nil
+        
+        self.viewControllers = [nav1, nav2, nav3, nav4, nav5]
     }
     
     override func didReceiveMemoryWarning() {
