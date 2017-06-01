@@ -63,6 +63,7 @@
 		1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */; };
 		1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */; };
 		1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
@@ -76,7 +77,6 @@
 		1F6ECCC31E7FB85500B3055E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F6ECCCA1E7FB8C500B3055E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		1F6ECCD11E7FBA6F00B3055E /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
-		1F6ECCD71E7FBB0A00B3055E /* MobileProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F6ED0E21E7FC15200B3055E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
 		1F6ED0E41E7FC15200B3055E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
 		1F6ED0E61E7FC38000B3055E /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
@@ -141,6 +141,9 @@
 		1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		1FA4E5391EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
 		1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		1FA4E53F1EDFE78000E27BB0 /* MobileProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		1FA4E5411EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmengHelper.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,7 +202,7 @@
 				1F6ECCC01E7FB85500B3055E /* Main.storyboard */,
 				1F6ECCC31E7FB85500B3055E /* ViewController.swift */,
 				1F6ECCCA1E7FB8C500B3055E /* Info.plist */,
-				1F6ECCD71E7FBB0A00B3055E /* MobileProject-Bridging-Header.h */,
+				1FA4E53F1EDFE78000E27BB0 /* MobileProject-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 		1F6ECCD01E7FB94800B3055E /* Vender(功能封装) */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4E5401EDFEFBC00E27BB0 /* FDFullscreenPopGesture */,
 				1FA4E53B1EDFAAE900E27BB0 /* HYBMasonryAutoCellHeight */,
 				1FA4E5351EDFAADC00E27BB0 /* TTReflect */,
 				1FA4E5141EDFAAD300E27BB0 /* FMDB */,
@@ -621,6 +625,15 @@
 			path = "../../../Apartment-APP/CODE/homeplus-ios/trunk/HomePlus/SDKFile/HYBMasonryAutoCellHeight";
 			sourceTree = "<group>";
 		};
+		1FA4E5401EDFEFBC00E27BB0 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5411EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.h */,
+				1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
 		1FAB585C1E9B282E00D8A776 /* UmengHelper(友盟管理) */ = {
 			isa = PBXGroup;
 			children = (
@@ -682,8 +695,9 @@
 				TargetAttributes = {
 					1F6ECCA31E7F6F7000B3055E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6UZQAUZZS7;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -793,6 +807,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				1FA4E5061EDFAA8300E27BB0 /* Migration.m in Sources */,
 				1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */,
 				1FA4E5301EDFAAD300E27BB0 /* FMResultSet.m in Sources */,
@@ -959,15 +974,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6UZQAUZZS7;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuwen.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -977,14 +995,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6UZQAUZZS7;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuwen.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
