@@ -13,13 +13,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         //加载TabBarVC
         let vc: BaseTabBarViewController = BaseTabBarViewController.sharedInstance
         window?.rootViewController = vc
+        
+        // Configure global setting
+        applicationApperance()
+        
+        //友盟数据统计、社会化
+        UmengHelper.UMAnalyticStart()
+        
+        //高德地图
+        
+        //信鸽推送
+        
+        //启动广告
         
         window?.makeKeyAndVisible()
         
@@ -47,7 +58,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func applicationApperance(){
+        
+        //  1、获取导航条
+        let navBar = UINavigationBar.appearance();
+        //  2、设置导航条背景
+//        navBar.setBackgroundImage(UIImage(named: "red_bar"), forBarMetrics: UIBarMetrics.Default);
+        //  3、设置字体属性
+        navBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black, NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18)];
+        
+        navBar.tintColor = UIColor.black
+        
+        navBar.shadowImage = UIImage()
+        
+    }
 
 }
 

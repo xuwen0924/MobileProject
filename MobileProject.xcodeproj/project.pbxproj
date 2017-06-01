@@ -29,6 +29,7 @@
 		1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */; };
 		1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */; };
 		1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E531E81188D00D355B2 /* HttpResponse.swift */; };
+		1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboListModel.swift; sourceTree = "<group>"; };
 		1F7C0E531E81188D00D355B2 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmengHelper.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E80FEEE629E0B216E8754 /* Pods-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		1F6ECF2B1E7FBCD000B3055E /* Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				1FAB585C1E9B282E00D8A776 /* UmengHelper(友盟管理) */,
 			);
 			name = "Tool(工具类)";
 			path = Tool;
@@ -414,6 +417,15 @@
 			path = DataBase;
 			sourceTree = "<group>";
 		};
+		1FAB585C1E9B282E00D8A776 /* UmengHelper(友盟管理) */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */,
+			);
+			name = "UmengHelper(友盟管理)";
+			path = UmengHelper;
+			sourceTree = "<group>";
+		};
 		6920AAC7A6A9CCB1B419240E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +580,7 @@
 				1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */,
 				1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */,
 				1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */,
+				1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
 				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
 				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
