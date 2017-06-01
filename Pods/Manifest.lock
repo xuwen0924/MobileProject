@@ -5,16 +5,32 @@ PODS:
   - AMapFoundation (1.3.4)
   - AMapSearch (4.5.0):
     - AMapFoundation (~> 1.2)
+  - ARCollectionViewMasonryLayout (2.2.0)
   - DynamicColor (3.2.1)
+  - ESTabBarController-swift (2.3)
+  - FCFileManager (1.0.18)
   - FoldingCell (2.0.3)
+  - IQKeyboardManagerSwift (4.0.9)
+  - KeyChain-UDID (0.0.1)
+  - Kingfisher (3.6.2)
+  - Log (1.0)
+  - Masonry (1.0.2)
+  - NextGrowingTextView (0.8.5)
   - NVActivityIndicatorView (3.5.1)
   - ReachabilitySwift (3)
   - RongCloudIM/IMKit (2.8.7):
     - RongCloudIM/IMLib
   - RongCloudIM/IMLib (2.8.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.2.0)
   - Spring (1.0.3)
   - SwiftDate (4.0.13)
   - SwiftyJSON (3.1.4)
+  - Swizzle (0.1.0)
+  - Toaster (2.0.3)
+  - UIImage-Helpers (0.0.3)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - UMengUShare/Core (6.4.0):
     - UMengUShare/Network
@@ -45,15 +61,29 @@ DEPENDENCIES:
   - Alamofire
   - AMap2DMap
   - AMapSearch
+  - ARCollectionViewMasonryLayout
   - DynamicColor (~> 3.2.1)
+  - ESTabBarController-swift
+  - FCFileManager
   - FoldingCell (~> 2.0.3)
+  - IQKeyboardManagerSwift
+  - KeyChain-UDID
+  - Kingfisher
+  - Log
+  - Masonry
+  - NextGrowingTextView
   - NVActivityIndicatorView
   - ReachabilitySwift
   - RongCloudIM/IMKit
   - RongCloudIM/IMLib
+  - SDWebImage
+  - SnapKit
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
   - SwiftDate (~> 4.0)
   - SwiftyJSON
+  - Swizzle
+  - Toaster
+  - UIImage-Helpers
   - UMengAnalytics-NO-IDFA
   - UMengUShare/Social/Email
   - UMengUShare/Social/QQ
@@ -77,17 +107,31 @@ SPEC CHECKSUMS:
   AMap2DMap: 003fa70526983a1469ae6fc3323a6ee8b5ccf53c
   AMapFoundation: 486493b8e9ae4a1cb7ce2d8d8978ee1aabf9bb34
   AMapSearch: 7a6ebc20a42e34a021b042b047f198082fc2fc30
+  ARCollectionViewMasonryLayout: 9e87541c1d59cd9e6f538c19bbed3f52ceeef421
   DynamicColor: 4786d650c69da6c3f2cbfe068348288ec4e5521f
+  ESTabBarController-swift: 23011ffbee6cd66a37309f00c7c21c9dd63c17de
+  FCFileManager: 3d13576da1f709d37460bd7669cdf07b9d6d8bc3
   FoldingCell: 2f3113051609167776743415fc00ed877ac6d62c
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  KeyChain-UDID: 6c147ad17dacf24c66d9e9ec1c777c67b8618461
+  Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
+  Log: 5e368c9528db07517d18d2d04ff5fe2b6f5a1e21
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  NextGrowingTextView: 3cc930a03c5979071244af42bcc81360d7453323
   NVActivityIndicatorView: 075563b3547445ebcff840e3297ce9dd4a23731f
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   RongCloudIM: 7bbe81602eac7224de201f0e56621f88c39d0174
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftDate: 8ec416bb1b5129d1f35e8efaed720421f41d42df
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Swizzle: 74b4ec07781b0fcc030bf934bc94a8a4844b106b
+  Toaster: 77c0b03d78e680bbbab0071c9c7ee392b0034010
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   UMengUShare: 83f849f356db0db9f18488cfbc2055a20b150481
 
-PODFILE CHECKSUM: fa5f7774b9942deec42df3826ca9bf53776a78c4
+PODFILE CHECKSUM: b87dd3ed284bd1ea85bf7dd65f7be96f3b8153b4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

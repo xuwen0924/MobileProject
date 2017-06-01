@@ -1,0 +1,6 @@
+framework module Swizzle {
+  umbrella header "Swizzle-umbrella.h"
+
+  export *
+  module * { export * }
+}

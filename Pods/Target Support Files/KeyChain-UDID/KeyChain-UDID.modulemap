@@ -1,0 +1,6 @@
+framework module KeyChain_UDID {
+  umbrella header "KeyChain-UDID-umbrella.h"
+
+  export *
+  module * { export * }
+}

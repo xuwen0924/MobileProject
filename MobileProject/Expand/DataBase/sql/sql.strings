@@ -1,0 +1,28 @@
+/* 
+  sql.strings
+  YunZhangGui
+
+  Created by liujinliang on 2017/1/19.
+  Copyright © 2017年 worldunion.com.cn. All rights reserved.
+*/
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateSubscriptionObj.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateUserInfoObj.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateUpdateVersion.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateJKUpdateVersion.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateJiKeUserInfoObj.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateAbeyanceEventObj.sql
+//
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateALCommunicateObj.sql
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateFeedbackObj.sql
+
+
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateHomeInfoObjV1.0.sql
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_CreateFlexValuesObjV1.0.sql
+
+
+//touch "`ruby -e "puts Time.now.strftime('%Y%m%d%H%M%S%3N').to_i"`"_HomeInfoObjV1.1_add_column.sql

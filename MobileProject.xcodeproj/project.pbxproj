@@ -29,6 +29,40 @@
 		1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */; };
 		1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */; };
 		1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C0E531E81188D00D355B2 /* HttpResponse.swift */; };
+		1FA4E4E41EDFAA6100E27BB0 /* FMDBAdapterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E4E31EDFAA6100E27BB0 /* FMDBAdapterHelper.swift */; };
+		1FA4E4F51EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4E61EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql */; };
+		1FA4E4F61EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4E71EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql */; };
+		1FA4E4F71EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4E81EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql */; };
+		1FA4E4F81EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4E91EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql */; };
+		1FA4E4F91EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4EA1EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql */; };
+		1FA4E4FA1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4EB1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql */; };
+		1FA4E4FB1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4EC1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql */; };
+		1FA4E4FC1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4ED1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql */; };
+		1FA4E4FD1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4EE1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql */; };
+		1FA4E4FE1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4EF1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql */; };
+		1FA4E4FF1EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4F01EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql */; };
+		1FA4E5001EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4F11EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql */; };
+		1FA4E5011EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4F21EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql */; };
+		1FA4E5021EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4F31EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql */; };
+		1FA4E5031EDFAA7A00E27BB0 /* sql.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E4F41EDFAA7A00E27BB0 /* sql.strings */; };
+		1FA4E5061EDFAA8300E27BB0 /* Migration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5051EDFAA8300E27BB0 /* Migration.m */; };
+		1FA4E5101EDFAAC000E27BB0 /* KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5091EDFAAC000E27BB0 /* KMSwizzle.m */; };
+		1FA4E5111EDFAAC000E27BB0 /* KMWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E50B1EDFAAC000E27BB0 /* KMWeakObjectContainer.m */; };
+		1FA4E5121EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E50D1EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m */; };
+		1FA4E5131EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E50F1EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m */; };
+		1FA4E52A1EDFAAD300E27BB0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E5151EDFAAD300E27BB0 /* LICENSE.txt */; };
+		1FA4E52B1EDFAAD300E27BB0 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5161EDFAAD300E27BB0 /* README.markdown */; };
+		1FA4E52C1EDFAAD300E27BB0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E51A1EDFAAD300E27BB0 /* FMDatabase.m */; };
+		1FA4E52D1EDFAAD300E27BB0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E51C1EDFAAD300E27BB0 /* FMDatabaseAdditions.m */; };
+		1FA4E52E1EDFAAD300E27BB0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E51E1EDFAAD300E27BB0 /* FMDatabasePool.m */; };
+		1FA4E52F1EDFAAD300E27BB0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5201EDFAAD300E27BB0 /* FMDatabaseQueue.m */; };
+		1FA4E5301EDFAAD300E27BB0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5231EDFAAD300E27BB0 /* FMResultSet.m */; };
+		1FA4E5311EDFAAD300E27BB0 /* FMDBMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5271EDFAAD300E27BB0 /* FMDBMigrationManager.m */; };
+		1FA4E5321EDFAAD300E27BB0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E5281EDFAAD300E27BB0 /* LICENSE */; };
+		1FA4E5331EDFAAD300E27BB0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5291EDFAAD300E27BB0 /* README.md */; };
+		1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */; };
+		1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */; };
+		1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */; };
 		622475D8ED5888DB08547473 /* Pods_MobileProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +93,54 @@
 		1F7C0E4F1E80FDDA00D355B2 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		1F7C0E511E80FE0500D355B2 /* WeiboListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboListModel.swift; sourceTree = "<group>"; };
 		1F7C0E531E81188D00D355B2 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		1FA4E4E31EDFAA6100E27BB0 /* FMDBAdapterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBAdapterHelper.swift; sourceTree = "<group>"; };
+		1FA4E4E61EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119102853694_CreateUserInfoObj.sql; sourceTree = "<group>"; };
+		1FA4E4E71EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119102931437_CreateUpdateVersion.sql; sourceTree = "<group>"; };
+		1FA4E4E81EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119103126829_CreateJKUpdateVersion.sql; sourceTree = "<group>"; };
+		1FA4E4E91EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119103126893_CreateJiKeUserInfoObj.sql; sourceTree = "<group>"; };
+		1FA4E4EA1EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119103126950_CreateAbeyanceEventObj.sql; sourceTree = "<group>"; };
+		1FA4E4EB1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119103129741_CreateALCommunicateObj.sql; sourceTree = "<group>"; };
+		1FA4E4EC1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119110312043_CreateSubscriptionObj.sql; sourceTree = "<group>"; };
+		1FA4E4ED1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119150211515_CreateSubscriptionObj.sql; sourceTree = "<group>"; };
+		1FA4E4EE1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170119230730750_CreateUserInfoObj.sql; sourceTree = "<group>"; };
+		1FA4E4EF1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170302174906658_CreateSubscriptionObj.sql; sourceTree = "<group>"; };
+		1FA4E4F01EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170324092422859_CreateFeedbackObj.sql; sourceTree = "<group>"; };
+		1FA4E4F11EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170425100911098_CreateHomeInfoObjV1.0.sql; sourceTree = "<group>"; };
+		1FA4E4F21EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170426154944501_HomeInfoObjV1.1_add_column.sql; sourceTree = "<group>"; };
+		1FA4E4F31EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20170427173115452_CreateFlexValuesObjV1.0.sql; sourceTree = "<group>"; };
+		1FA4E4F41EDFAA7A00E27BB0 /* sql.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = sql.strings; sourceTree = "<group>"; };
+		1FA4E5041EDFAA8300E27BB0 /* Migration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Migration.h; sourceTree = "<group>"; };
+		1FA4E5051EDFAA8300E27BB0 /* Migration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Migration.m; sourceTree = "<group>"; };
+		1FA4E5081EDFAAC000E27BB0 /* KMSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSwizzle.h; sourceTree = "<group>"; };
+		1FA4E5091EDFAAC000E27BB0 /* KMSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSwizzle.m; sourceTree = "<group>"; };
+		1FA4E50A1EDFAAC000E27BB0 /* KMWeakObjectContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMWeakObjectContainer.h; sourceTree = "<group>"; };
+		1FA4E50B1EDFAAC000E27BB0 /* KMWeakObjectContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMWeakObjectContainer.m; sourceTree = "<group>"; };
+		1FA4E50C1EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		1FA4E50D1EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		1FA4E50E1EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		1FA4E50F1EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		1FA4E5151EDFAAD300E27BB0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		1FA4E5161EDFAAD300E27BB0 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		1FA4E5191EDFAAD300E27BB0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1FA4E51A1EDFAAD300E27BB0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1FA4E51B1EDFAAD300E27BB0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1FA4E51C1EDFAAD300E27BB0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1FA4E51D1EDFAAD300E27BB0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1FA4E51E1EDFAAD300E27BB0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1FA4E51F1EDFAAD300E27BB0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1FA4E5201EDFAAD300E27BB0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1FA4E5211EDFAAD300E27BB0 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1FA4E5221EDFAAD300E27BB0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1FA4E5231EDFAAD300E27BB0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1FA4E5261EDFAAD300E27BB0 /* FMDBMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBMigrationManager.h; sourceTree = "<group>"; };
+		1FA4E5271EDFAAD300E27BB0 /* FMDBMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBMigrationManager.m; sourceTree = "<group>"; };
+		1FA4E5281EDFAAD300E27BB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1FA4E5291EDFAAD300E27BB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflect.swift; sourceTree = "<group>"; };
+		1FA4E5371EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
+		1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
+		1FA4E5391EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
+		1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
 		1FAB585D1E9B284D00D8A776 /* UmengHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmengHelper.swift; sourceTree = "<group>"; };
 		39DC0562C47147ACF1638A6A /* Pods-MobileProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProject/Pods-MobileProject.release.xcconfig"; sourceTree = "<group>"; };
 		40917A2CBCF2248E86275264 /* Pods_MobileProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +258,11 @@
 		1F6ECCD01E7FB94800B3055E /* Vender(功能封装) */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4E53B1EDFAAE900E27BB0 /* HYBMasonryAutoCellHeight */,
+				1FA4E5351EDFAADC00E27BB0 /* TTReflect */,
+				1FA4E5141EDFAAD300E27BB0 /* FMDB */,
+				1FA4E5241EDFAAD300E27BB0 /* FMDBMigrationManager */,
+				1FA4E5071EDFAAC000E27BB0 /* KMNavigationBarTransition */,
 				1F6ED0E61E7FC38000B3055E /* Placeholder */,
 			);
 			name = "Vender(功能封装)";
@@ -412,9 +499,126 @@
 		1F7C0E451E80BEEB00D355B2 /* DataBase(数据库) */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4E4E51EDFAA7900E27BB0 /* sql */,
+				1FA4E4E31EDFAA6100E27BB0 /* FMDBAdapterHelper.swift */,
+				1FA4E5041EDFAA8300E27BB0 /* Migration.h */,
+				1FA4E5051EDFAA8300E27BB0 /* Migration.m */,
 			);
 			name = "DataBase(数据库)";
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		1FA4E4E51EDFAA7900E27BB0 /* sql */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E4E61EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql */,
+				1FA4E4E71EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql */,
+				1FA4E4E81EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql */,
+				1FA4E4E91EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql */,
+				1FA4E4EA1EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql */,
+				1FA4E4EB1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql */,
+				1FA4E4EC1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql */,
+				1FA4E4ED1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql */,
+				1FA4E4EE1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql */,
+				1FA4E4EF1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql */,
+				1FA4E4F01EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql */,
+				1FA4E4F11EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql */,
+				1FA4E4F21EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql */,
+				1FA4E4F31EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql */,
+				1FA4E4F41EDFAA7A00E27BB0 /* sql.strings */,
+			);
+			path = sql;
+			sourceTree = "<group>";
+		};
+		1FA4E5071EDFAAC000E27BB0 /* KMNavigationBarTransition */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5081EDFAAC000E27BB0 /* KMSwizzle.h */,
+				1FA4E5091EDFAAC000E27BB0 /* KMSwizzle.m */,
+				1FA4E50A1EDFAAC000E27BB0 /* KMWeakObjectContainer.h */,
+				1FA4E50B1EDFAAC000E27BB0 /* KMWeakObjectContainer.m */,
+				1FA4E50C1EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.h */,
+				1FA4E50D1EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m */,
+				1FA4E50E1EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.h */,
+				1FA4E50F1EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m */,
+			);
+			path = KMNavigationBarTransition;
+			sourceTree = "<group>";
+		};
+		1FA4E5141EDFAAD300E27BB0 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5151EDFAAD300E27BB0 /* LICENSE.txt */,
+				1FA4E5161EDFAAD300E27BB0 /* README.markdown */,
+				1FA4E5171EDFAAD300E27BB0 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		1FA4E5171EDFAAD300E27BB0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5181EDFAAD300E27BB0 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1FA4E5181EDFAAD300E27BB0 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5191EDFAAD300E27BB0 /* FMDatabase.h */,
+				1FA4E51A1EDFAAD300E27BB0 /* FMDatabase.m */,
+				1FA4E51B1EDFAAD300E27BB0 /* FMDatabaseAdditions.h */,
+				1FA4E51C1EDFAAD300E27BB0 /* FMDatabaseAdditions.m */,
+				1FA4E51D1EDFAAD300E27BB0 /* FMDatabasePool.h */,
+				1FA4E51E1EDFAAD300E27BB0 /* FMDatabasePool.m */,
+				1FA4E51F1EDFAAD300E27BB0 /* FMDatabaseQueue.h */,
+				1FA4E5201EDFAAD300E27BB0 /* FMDatabaseQueue.m */,
+				1FA4E5211EDFAAD300E27BB0 /* FMDB.h */,
+				1FA4E5221EDFAAD300E27BB0 /* FMResultSet.h */,
+				1FA4E5231EDFAAD300E27BB0 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		1FA4E5241EDFAAD300E27BB0 /* FMDBMigrationManager */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5251EDFAAD300E27BB0 /* Code */,
+				1FA4E5281EDFAAD300E27BB0 /* LICENSE */,
+				1FA4E5291EDFAAD300E27BB0 /* README.md */,
+			);
+			path = FMDBMigrationManager;
+			sourceTree = "<group>";
+		};
+		1FA4E5251EDFAAD300E27BB0 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5261EDFAAD300E27BB0 /* FMDBMigrationManager.h */,
+				1FA4E5271EDFAAD300E27BB0 /* FMDBMigrationManager.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1FA4E5351EDFAADC00E27BB0 /* TTReflect */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */,
+			);
+			name = TTReflect;
+			path = "../../../Apartment-APP/CODE/homeplus-ios/trunk/HomePlus/SDKFile/TTReflect";
+			sourceTree = "<group>";
+		};
+		1FA4E53B1EDFAAE900E27BB0 /* HYBMasonryAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4E5371EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.h */,
+				1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */,
+				1FA4E5391EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
+				1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
+			);
+			name = HYBMasonryAutoCellHeight;
+			path = "../../../Apartment-APP/CODE/homeplus-ios/trunk/HomePlus/SDKFile/HYBMasonryAutoCellHeight";
 			sourceTree = "<group>";
 		};
 		1FAB585C1E9B282E00D8A776 /* UmengHelper(友盟管理) */ = {
@@ -507,12 +711,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA4E4FA1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql in Resources */,
+				1FA4E5001EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql in Resources */,
+				1FA4E4F61EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql in Resources */,
+				1FA4E5011EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql in Resources */,
 				1F6ECCCB1E7FB8C500B3055E /* Info.plist in Resources */,
+				1FA4E4F51EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql in Resources */,
+				1FA4E4F71EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql in Resources */,
 				1F6ECCC71E7FB85600B3055E /* Main.storyboard in Resources */,
 				1F6ED0E51E7FC15200B3055E /* File.strings in Resources */,
+				1FA4E4F91EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql in Resources */,
+				1FA4E4FF1EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql in Resources */,
+				1FA4E4FE1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql in Resources */,
+				1FA4E4FB1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql in Resources */,
+				1FA4E4FC1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql in Resources */,
+				1FA4E4F81EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql in Resources */,
+				1FA4E5031EDFAA7A00E27BB0 /* sql.strings in Resources */,
+				1FA4E52A1EDFAAD300E27BB0 /* LICENSE.txt in Resources */,
 				1F6ECCC51E7FB85600B3055E /* Assets.xcassets in Resources */,
+				1FA4E5321EDFAAD300E27BB0 /* LICENSE in Resources */,
 				1F6ECCC61E7FB85600B3055E /* LaunchScreen.storyboard in Resources */,
 				1F6ECCD21E7FBA6F00B3055E /* Placeholder in Resources */,
+				1FA4E5021EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql in Resources */,
+				1FA4E4FD1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql in Resources */,
 				1F6ED0E71E7FC38000B3055E /* Placeholder in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,7 +783,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -572,22 +793,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA4E5061EDFAA8300E27BB0 /* Migration.m in Sources */,
 				1F7C0E541E81188D00D355B2 /* HttpResponse.swift in Sources */,
+				1FA4E5301EDFAAD300E27BB0 /* FMResultSet.m in Sources */,
 				1F7C0E4C1E80F99A00D355B2 /* Macros.swift in Sources */,
 				1F7C0E481E80D42600D355B2 /* HttpClient.swift in Sources */,
+				1FA4E52D1EDFAAD300E27BB0 /* FMDatabaseAdditions.m in Sources */,
 				1F7C0E521E80FE0500D355B2 /* WeiboListModel.swift in Sources */,
 				1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */,
+				1FA4E5311EDFAAD300E27BB0 /* FMDBMigrationManager.m in Sources */,
+				1FA4E5121EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
+				1FA4E5101EDFAAC000E27BB0 /* KMSwizzle.m in Sources */,
 				1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */,
+				1FA4E5331EDFAAD300E27BB0 /* README.md in Sources */,
+				1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */,
+				1FA4E5131EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m in Sources */,
+				1FA4E4E41EDFAA6100E27BB0 /* FMDBAdapterHelper.swift in Sources */,
+				1FA4E52B1EDFAAD300E27BB0 /* README.markdown in Sources */,
 				1F6ED0EB1E7FC8D900B3055E /* BasicViewModel.swift in Sources */,
 				1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */,
+				1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */,
+				1FA4E52E1EDFAAD300E27BB0 /* FMDatabasePool.m in Sources */,
 				1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */,
+				1FA4E52C1EDFAAD300E27BB0 /* FMDatabase.m in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
 				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
 				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
 				1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */,
+				1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
+				1FA4E5111EDFAAC000E27BB0 /* KMWeakObjectContainer.m in Sources */,
 				1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */,
 				1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */,
 				1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */,
+				1FA4E52F1EDFAAD300E27BB0 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

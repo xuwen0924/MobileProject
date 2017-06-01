@@ -41,5 +41,39 @@ pod 'UMengAnalytics-NO-IDFA' #无IDFA版SDK
 pod 'AMap2DMap' #2D地图SDK(2D地图和3D地图不能同时使用)
 pod 'AMapSearch' #搜索服务SDK
 
+# 基于Masonry的自动计算cell的行高的扩展库，且高效缓存行高
+#pod 'HYBMasonryAutoCellHeight
+#pod 'HYBMasonryAutoCellHeight', '~> 2.0.1'
+pod 'ARCollectionViewMasonryLayout'
+
+#图片加载及缓存
+pod 'Kingfisher'
+pod 'SDWebImage'
+pod 'UIImage-Helpers'
+
+#自动化布局
+pod 'Masonry'
+pod 'SnapKit'
+
+#键盘处理
+pod 'IQKeyboardManagerSwift'
+
+#日志打印
+pod 'Log'
+
+pod 'NextGrowingTextView'
+
+#UDID
+pod 'KeyChain-UDID'
+
+pod 'ESTabBarController-swift'
+
+#toast
+pod 'Toaster'
+
+#文件管理
+pod 'FCFileManager'
+#转编码
+pod 'Swizzle'
 
 end
