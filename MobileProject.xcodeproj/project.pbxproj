@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F579C7320215B9D0088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7220215B9D0088E1D9 /* Placeholder */; };
+		1F579C7520215BA10088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7420215BA10088E1D9 /* Placeholder */; };
+		1F579C7720215BA80088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7620215BA80088E1D9 /* Placeholder */; };
+		1F579C7920215BAC0088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7820215BAC0088E1D9 /* Placeholder */; };
+		1F579C7B20215BB20088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7A20215BB20088E1D9 /* Placeholder */; };
+		1F579C7D20215BB70088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7C20215BB70088E1D9 /* Placeholder */; };
+		1F579C7F20215BC30088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7E20215BC20088E1D9 /* Placeholder */; };
+		1F579C8520215C070088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C8420215C070088E1D9 /* Placeholder */; };
+		1F579C8720215C0B0088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C8620215C0B0088E1D9 /* Placeholder */; };
 		1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBC1E7FB85500B3055E /* AppDelegate.swift */; };
 		1F6ECCC51E7FB85600B3055E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBD1E7FB85500B3055E /* Assets.xcassets */; };
 		1F6ECCC61E7FB85600B3055E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBE1E7FB85500B3055E /* LaunchScreen.storyboard */; };
@@ -92,6 +101,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F579C7220215B9D0088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7420215BA10088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7620215BA80088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7820215BAC0088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7A20215BB20088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7C20215BB70088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C7E20215BC20088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C8420215C070088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F579C8620215C0B0088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		1F6ECCA41E7F6F7400B3055E /* MobileProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6ECCBC1E7FB85500B3055E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6ECCBD1E7FB85500B3055E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -209,6 +227,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F579C8220215C000088E1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F579C8620215C0B0088E1D9 /* Placeholder */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F579C8320215C000088E1D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F579C8420215C070088E1D9 /* Placeholder */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1F6ECC9B1E7F6F6F00B3055E = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +378,7 @@
 		1F6ECCDA1E7FBC8100B3055E /* Logger(日志) */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7420215BA10088E1D9 /* Placeholder */,
 			);
 			name = "Logger(日志)";
 			path = Logger;
@@ -352,6 +387,7 @@
 		1F6ECCDB1E7FBC8100B3055E /* LogIn(登录) */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7220215B9D0088E1D9 /* Placeholder */,
 			);
 			name = "LogIn(登录)";
 			path = LogIn;
@@ -360,6 +396,8 @@
 		1F6ECCDD1E7FBC8100B3055E /* Public(公共类) */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C8320215C000088E1D9 /* Controller */,
+				1F579C8220215C000088E1D9 /* View */,
 			);
 			name = "Public(公共类)";
 			path = Public;
@@ -470,6 +508,7 @@
 		1F6ED0EF1E7FCCA800B3055E /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7E20215BC20088E1D9 /* Placeholder */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -515,6 +554,7 @@
 		1F6ED0F91E7FCE4600B3055E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7C20215BB70088E1D9 /* Placeholder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -530,6 +570,7 @@
 		1F6ED0FB1E7FCE5300B3055E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7A20215BB20088E1D9 /* Placeholder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -545,6 +586,7 @@
 		1F6ED0FD1E7FCE5D00B3055E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7620215BA80088E1D9 /* Placeholder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -743,6 +785,7 @@
 		1FDAC6341EE0018A0030BE94 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F579C7820215BAC0088E1D9 /* Placeholder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -831,23 +874,32 @@
 			files = (
 				1FA4E4FA1EDFAA7A00E27BB0 /* 20170119103129741_CreateALCommunicateObj.sql in Resources */,
 				1FA4E5001EDFAA7A00E27BB0 /* 20170425100911098_CreateHomeInfoObjV1.0.sql in Resources */,
+				1F579C7520215BA10088E1D9 /* Placeholder in Resources */,
 				1FA4E4F61EDFAA7A00E27BB0 /* 20170119102931437_CreateUpdateVersion.sql in Resources */,
 				1FA4E5011EDFAA7A00E27BB0 /* 20170426154944501_HomeInfoObjV1.1_add_column.sql in Resources */,
 				1F6ECCCB1E7FB8C500B3055E /* Info.plist in Resources */,
+				1F579C7920215BAC0088E1D9 /* Placeholder in Resources */,
+				1F579C7720215BA80088E1D9 /* Placeholder in Resources */,
+				1F579C7B20215BB20088E1D9 /* Placeholder in Resources */,
 				1FA4E4F51EDFAA7A00E27BB0 /* 20170119102853694_CreateUserInfoObj.sql in Resources */,
 				1FA4E4F71EDFAA7A00E27BB0 /* 20170119103126829_CreateJKUpdateVersion.sql in Resources */,
 				1F6ECCC71E7FB85600B3055E /* Main.storyboard in Resources */,
 				1F6ED0E51E7FC15200B3055E /* File.strings in Resources */,
 				1FA4E4F91EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql in Resources */,
+				1F579C8520215C070088E1D9 /* Placeholder in Resources */,
 				1FA4E4FF1EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql in Resources */,
 				1FA4E4FE1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql in Resources */,
 				1FA4E4FB1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql in Resources */,
 				1FA4E4FC1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql in Resources */,
 				1FA4E4F81EDFAA7A00E27BB0 /* 20170119103126893_CreateJiKeUserInfoObj.sql in Resources */,
 				1FA4E5031EDFAA7A00E27BB0 /* sql.strings in Resources */,
+				1F579C8720215C0B0088E1D9 /* Placeholder in Resources */,
 				1FA4E52A1EDFAAD300E27BB0 /* LICENSE.txt in Resources */,
 				1F6ECCC51E7FB85600B3055E /* Assets.xcassets in Resources */,
 				1FA4E5321EDFAAD300E27BB0 /* LICENSE in Resources */,
+				1F579C7320215B9D0088E1D9 /* Placeholder in Resources */,
+				1F579C7D20215BB70088E1D9 /* Placeholder in Resources */,
+				1F579C7F20215BC30088E1D9 /* Placeholder in Resources */,
 				1F6ECCC61E7FB85600B3055E /* LaunchScreen.storyboard in Resources */,
 				1F6ECCD21E7FBA6F00B3055E /* Placeholder in Resources */,
 				1FA4E5021EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql in Resources */,
