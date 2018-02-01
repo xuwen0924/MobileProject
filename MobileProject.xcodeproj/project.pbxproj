@@ -16,6 +16,11 @@
 		1F579C7F20215BC30088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C7E20215BC20088E1D9 /* Placeholder */; };
 		1F579C8520215C070088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C8420215C070088E1D9 /* Placeholder */; };
 		1F579C8720215C0B0088E1D9 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F579C8620215C0B0088E1D9 /* Placeholder */; };
+		1F63888D2022FAD4007541AB /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6388842022FAD3007541AB /* Reflect.swift */; };
+		1F63888E2022FAD4007541AB /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6388862022FAD3007541AB /* UITableView+HYBCacheHeight.m */; };
+		1F63888F2022FAD4007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6388892022FAD3007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		1F6388932022FBC4007541AB /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6388922022FBC4007541AB /* Placeholder */; };
+		1F6388952022FBC7007541AB /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 1F6388942022FBC7007541AB /* Placeholder */; };
 		1F6ECCC41E7FB85600B3055E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBC1E7FB85500B3055E /* AppDelegate.swift */; };
 		1F6ECCC51E7FB85600B3055E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBD1E7FB85500B3055E /* Assets.xcassets */; };
 		1F6ECCC61E7FB85600B3055E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6ECCBE1E7FB85500B3055E /* LaunchScreen.storyboard */; };
@@ -69,9 +74,6 @@
 		1FA4E5311EDFAAD300E27BB0 /* FMDBMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5271EDFAAD300E27BB0 /* FMDBMigrationManager.m */; };
 		1FA4E5321EDFAAD300E27BB0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4E5281EDFAAD300E27BB0 /* LICENSE */; };
 		1FA4E5331EDFAAD300E27BB0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5291EDFAAD300E27BB0 /* README.md */; };
-		1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */; };
-		1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */; };
-		1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		1FA4E5451EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5441EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift */; };
 		1FA4E54E1EDFF37000E27BB0 /* FMDBShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4E5471EDFF37000E27BB0 /* FMDBShareApi.swift */; };
@@ -110,6 +112,13 @@
 		1F579C7E20215BC20088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		1F579C8420215C070088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		1F579C8620215C0B0088E1D9 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		1F6388842022FAD3007541AB /* Reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflect.swift; sourceTree = "<group>"; };
+		1F6388862022FAD3007541AB /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
+		1F6388872022FAD3007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
+		1F6388882022FAD3007541AB /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
+		1F6388892022FAD3007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		1F6388922022FBC4007541AB /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Placeholder; path = MobileProject/Vender/Placeholder; sourceTree = SOURCE_ROOT; };
+		1F6388942022FBC7007541AB /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Placeholder; path = MobileProject/Vender/Placeholder; sourceTree = SOURCE_ROOT; };
 		1F6ECCA41E7F6F7400B3055E /* MobileProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6ECCBC1E7FB85500B3055E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6ECCBD1E7FB85500B3055E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -177,11 +186,6 @@
 		1FA4E5271EDFAAD300E27BB0 /* FMDBMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBMigrationManager.m; sourceTree = "<group>"; };
 		1FA4E5281EDFAAD300E27BB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1FA4E5291EDFAAD300E27BB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflect.swift; sourceTree = "<group>"; };
-		1FA4E5371EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
-		1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
-		1FA4E5391EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
-		1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
 		1FA4E53F1EDFE78000E27BB0 /* MobileProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FA4E5411EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		1FA4E5421EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
@@ -241,6 +245,25 @@
 				1F579C8420215C070088E1D9 /* Placeholder */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F6388832022FAD3007541AB /* TTReflect */ = {
+			isa = PBXGroup;
+			children = (
+				1F6388842022FAD3007541AB /* Reflect.swift */,
+			);
+			path = TTReflect;
+			sourceTree = "<group>";
+		};
+		1F6388852022FAD3007541AB /* HYBMasonryAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				1F6388862022FAD3007541AB /* UITableView+HYBCacheHeight.m */,
+				1F6388872022FAD3007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
+				1F6388882022FAD3007541AB /* UITableView+HYBCacheHeight.h */,
+				1F6388892022FAD3007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
+			);
+			path = HYBMasonryAutoCellHeight;
 			sourceTree = "<group>";
 		};
 		1F6ECC9B1E7F6F6F00B3055E = {
@@ -343,9 +366,9 @@
 		1F6ECCD01E7FB94800B3055E /* Vender(功能封装) */ = {
 			isa = PBXGroup;
 			children = (
+				1F6388852022FAD3007541AB /* HYBMasonryAutoCellHeight */,
+				1F6388832022FAD3007541AB /* TTReflect */,
 				1FA4E5401EDFEFBC00E27BB0 /* FDFullscreenPopGesture */,
-				1FA4E53B1EDFAAE900E27BB0 /* HYBMasonryAutoCellHeight */,
-				1FA4E5351EDFAADC00E27BB0 /* TTReflect */,
 				1FA4E5141EDFAAD300E27BB0 /* FMDB */,
 				1FA4E5241EDFAAD300E27BB0 /* FMDBMigrationManager */,
 				1FA4E5071EDFAAC000E27BB0 /* KMNavigationBarTransition */,
@@ -460,6 +483,7 @@
 		1F6ED0C61E7FBCE300B3055E /* JsHtmlCss */ = {
 			isa = PBXGroup;
 			children = (
+				1F6388922022FBC4007541AB /* Placeholder */,
 			);
 			path = JsHtmlCss;
 			sourceTree = "<group>";
@@ -467,6 +491,7 @@
 		1F6ED0CB1E7FBCE300B3055E /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				1F6388942022FBC7007541AB /* Placeholder */,
 			);
 			path = Plist;
 			sourceTree = "<group>";
@@ -711,27 +736,6 @@
 			path = Code;
 			sourceTree = "<group>";
 		};
-		1FA4E5351EDFAADC00E27BB0 /* TTReflect */ = {
-			isa = PBXGroup;
-			children = (
-				1FA4E5341EDFAADC00E27BB0 /* Reflect.swift */,
-			);
-			name = TTReflect;
-			path = "../../../Apartment-APP/CODE/homeplus-ios/trunk/HomePlus/SDKFile/TTReflect";
-			sourceTree = "<group>";
-		};
-		1FA4E53B1EDFAAE900E27BB0 /* HYBMasonryAutoCellHeight */ = {
-			isa = PBXGroup;
-			children = (
-				1FA4E5371EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.h */,
-				1FA4E5381EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m */,
-				1FA4E5391EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
-				1FA4E53A1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
-			);
-			name = HYBMasonryAutoCellHeight;
-			path = "../../../Apartment-APP/CODE/homeplus-ios/trunk/HomePlus/SDKFile/HYBMasonryAutoCellHeight";
-			sourceTree = "<group>";
-		};
 		1FA4E5401EDFEFBC00E27BB0 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,6 +892,7 @@
 				1FA4E4F91EDFAA7A00E27BB0 /* 20170119103126950_CreateAbeyanceEventObj.sql in Resources */,
 				1F579C8520215C070088E1D9 /* Placeholder in Resources */,
 				1FA4E4FF1EDFAA7A00E27BB0 /* 20170324092422859_CreateFeedbackObj.sql in Resources */,
+				1F6388932022FBC4007541AB /* Placeholder in Resources */,
 				1FA4E4FE1EDFAA7A00E27BB0 /* 20170302174906658_CreateSubscriptionObj.sql in Resources */,
 				1FA4E4FB1EDFAA7A00E27BB0 /* 20170119110312043_CreateSubscriptionObj.sql in Resources */,
 				1FA4E4FC1EDFAA7A00E27BB0 /* 20170119150211515_CreateSubscriptionObj.sql in Resources */,
@@ -905,6 +910,7 @@
 				1FA4E5021EDFAA7A00E27BB0 /* 20170427173115452_CreateFlexValuesObjV1.0.sql in Resources */,
 				1FA4E4FD1EDFAA7A00E27BB0 /* 20170119230730750_CreateUserInfoObj.sql in Resources */,
 				1F6ED0E71E7FC38000B3055E /* Placeholder in Resources */,
+				1F6388952022FBC7007541AB /* Placeholder in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,6 +971,7 @@
 			files = (
 				1FA4E5681EDFF3E800E27BB0 /* String+CheckValue.m in Sources */,
 				1FA4E5701EDFF3E800E27BB0 /* UIView+Category.swift in Sources */,
+				1F63888F2022FAD4007541AB /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				1FA4E5431EDFEFC700E27BB0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				1FA4E5451EDFF32D00E27BB0 /* NSMutableDictionary+Extension.swift in Sources */,
 				1FA4E5521EDFF37000E27BB0 /* SqlBuilder.swift in Sources */,
@@ -980,13 +987,13 @@
 				1F7C0E501E80FDDA00D355B2 /* BaseModel.swift in Sources */,
 				1FA4E5311EDFAAD300E27BB0 /* FMDBMigrationManager.m in Sources */,
 				1FA4E5121EDFAAC000E27BB0 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
+				1F63888E2022FAD4007541AB /* UITableView+HYBCacheHeight.m in Sources */,
 				1FA4E5691EDFF3E800E27BB0 /* String+Extension.swift in Sources */,
 				1FA4E5651EDFF3E800E27BB0 /* NSObject+Extension.swift in Sources */,
 				1FA4E56B1EDFF3E800E27BB0 /* UIFont+Extension.swift in Sources */,
 				1FA4E5101EDFAAC000E27BB0 /* KMSwizzle.m in Sources */,
 				1F7C0E4A1E80F95100D355B2 /* APIUrl.swift in Sources */,
 				1FA4E5331EDFAAD300E27BB0 /* README.md in Sources */,
-				1FA4E5361EDFAADC00E27BB0 /* Reflect.swift in Sources */,
 				1FA4E5131EDFAAC000E27BB0 /* UIViewController+KMNavigationBarTransition.m in Sources */,
 				1FDAC6371EE001D10030BE94 /* FavorViewController.swift in Sources */,
 				1FA4E56D1EDFF3E800E27BB0 /* UILabel+Extension.swift in Sources */,
@@ -999,17 +1006,16 @@
 				1FA4E5711EDFF3E800E27BB0 /* UIViewController+Category.swift in Sources */,
 				1F7C0E4E1E80F9A900D355B2 /* ThirdMacros.swift in Sources */,
 				1FA4E56A1EDFF3E800E27BB0 /* UIColor+Category.swift in Sources */,
-				1FA4E53C1EDFAAE900E27BB0 /* UITableView+HYBCacheHeight.m in Sources */,
 				1FA4E52E1EDFAAD300E27BB0 /* FMDatabasePool.m in Sources */,
 				1FAB585E1E9B284D00D8A776 /* UmengHelper.swift in Sources */,
 				1FA4E52C1EDFAAD300E27BB0 /* FMDatabase.m in Sources */,
 				1F6ECCC91E7FB85600B3055E /* ViewController.swift in Sources */,
 				1FA4E56F1EDFF3E800E27BB0 /* UITextView+Catetory.swift in Sources */,
+				1F63888D2022FAD4007541AB /* Reflect.swift in Sources */,
 				1F6ED1051E7FCEA500B3055E /* MessageViewController.swift in Sources */,
 				1FA4E5641EDFF3E800E27BB0 /* BaseViewController+Extension.swift in Sources */,
 				1F6ED1011E7FCE8200B3055E /* HomePageViewController.swift in Sources */,
 				1F6ED1071E7FCEB300B3055E /* PersonalViewController.swift in Sources */,
-				1FA4E53D1EDFAAE900E27BB0 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				1FA4E5111EDFAAC000E27BB0 /* KMWeakObjectContainer.m in Sources */,
 				1F6ED1031E7FCE9500B3055E /* DiscoveryViewController.swift in Sources */,
 				1F6ED0F11E7FCCE200B3055E /* BaseTabBarViewController.swift in Sources */,
