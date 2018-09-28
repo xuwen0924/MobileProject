@@ -846,6 +846,7 @@
 				TargetAttributes = {
 					1F6ECCA31E7F6F7000B3055E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L26EDLNDFQ;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
@@ -1160,13 +1161,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L26EDLNDFQ;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuwen.MobileProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashang.wisdom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = Wisdom_development;
 				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1180,15 +1181,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L26EDLNDFQ;
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuwen.MobileProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashang.wisdom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = Wisdom_distribution;
 				SWIFT_OBJC_BRIDGING_HEADER = "MobileProject/Supporting Files/MobileProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
